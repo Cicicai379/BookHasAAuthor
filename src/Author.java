@@ -11,6 +11,7 @@ public class Author {
 
     public char getGender() {
         return gender;
+
     }
 
     public String getEmail() {
