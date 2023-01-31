@@ -65,6 +65,7 @@ public class AuthorBookTester {
     @Test
     public void testBookConstructorAuthor() {
         setUp();
+
         assertTrue("Ensure that your constructor in your Book class has been implemented correctly!", book.getAuthor().toString().equals("Philip K Dick (m) at pkd@gmail.com"));
         tearDown();
     }
