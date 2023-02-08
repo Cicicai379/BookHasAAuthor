@@ -38,7 +38,7 @@ public class Book {
         this.qty = qty;
     }
 
-    public String toString() {
+    public String toString() { //au ==author
 //        System.out.println(this.name+" by "+au.getName()+" ("+au.getGender()+") at "+au.getEmail());
         return this.name+" by "+au.getName()+" ("+au.getGender()+") at "+au.getEmail();
     }
